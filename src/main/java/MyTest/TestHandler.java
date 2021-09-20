@@ -74,7 +74,7 @@ public class TestHandler {
             if (method.getAnnotation(AfterSuite.class) != null) {
                 afterAnnotationCount++;
             }
-
+//
             return (beforeAnnotationCount < 2) && (afterAnnotationCount <2);
 
         }

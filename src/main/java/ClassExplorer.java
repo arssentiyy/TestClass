@@ -11,7 +11,7 @@ public class ClassExplorer {
         outClassFields(aClass);
         outClassMethods(aClass);
     }
-        //
+        ///
     private static void outClassMethods(Class aClass) {
         System.out.println("---METHODS---");
         Method[] methods = aClass.getDeclaredMethods();
