@@ -14,7 +14,7 @@ public class ClassForTesting {
     public void testMethod2() {
         System.out.println("Test method priority = 1");
     }
-
+//
     @Test(priority = 10)
     public void testMethod3() {
         System.out.println("Test method priority = 10");
